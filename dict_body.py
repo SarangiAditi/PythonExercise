@@ -3,4 +3,5 @@ body_dict=dict({"eye":"see"
                "tongue":"taste"
                "leg":"walk"
                "hand":"eat"})
-for 
+for k,v in body_dict.items():
+  print(f'{k}\t:\t{v}')
